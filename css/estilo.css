@@ -1,6 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root{
+    --blanco: #ffffff;
+    --corporativo: #632599;
+    --grisClaroFondo:#e2e2e2;
+    --negro:#000;
+    --verde: #87fd7c;
+    --rosa: #ff76e1;
+    --amarillo:#ffea76;
+    --azul: #76dfff;
+    --morado:#b361ff;
+    --naranja: #fd9051;
+    --rojo:#ff4444;
+
+}
+
 *{
     margin: 0%;
     padding: 0%;
+
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -9,7 +28,7 @@ body{
     align-items: center;
 
     
-    background-color: #e2e2e2;
+    background-color: var(--grisClaroFondo);
 }
 
 /* header */
@@ -19,7 +38,7 @@ header{
     align-items: center;
     height: 10vh;
     width: 100%;
-    background-color: #632599;
+    background-color: var(--corporativo);
 
     position: fixed;
 }
@@ -38,6 +57,7 @@ header img{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 
     
     width: 80vw;
@@ -45,10 +65,11 @@ header img{
     position: fixed;
 
     margin: 93px 0px;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding: 10px 10vw;
 
     
-    background-color: #e2e2e2;
+    background-color: var(--grisClaroFondo);
 }
 
 section.nav ul{
@@ -68,7 +89,7 @@ section.nav ul{
     width: 20%;
     height: 30px;
     
-    border-bottom: black solid 2px;
+    border-bottom: var(--negro) solid 2px;
 }
 
 div.linea img{
@@ -143,38 +164,38 @@ section.primero{
 
 
 .verde{
-    background-color: #87fd7c;    
+    background-color: var(--verde);    
     width: 90px;
 }
 
 .rosa{
-    background-color: #ff76e1;    
+    background-color: var(--rosa);    
     width: 100px;
 }
 
 
 .amarillo{
-    background-color: #ffea76;    
+    background-color: var(--amarillo);    
     width: 120px;
 }
 
 .azul{
-    background-color: #76dfff;    
+    background-color: var(--azul);    
     width: 110px;
 }
 
 .morado{
-    background-color: #b361ff;    
+    background-color: var(--morado);    
     width: 120px;
 }
 
 .naranja{
-    background-color: #fd9051;    
+    background-color: var(--naranja);    
     width: 130px;
 }
 
 .rojo{
-    background-color: #ff4444;    
+    background-color: var(--rojo);    
     width: 100px;
 }
 
@@ -208,10 +229,12 @@ section.primero{
 /* section segundo */
 
 section.segundo{
-    width: 100vw;
+    width: 80vw;
+    height: 80vh;
+
+    padding: 20px 10vw;
     
-
-    padding: 0px 8.5vw;
-
     background-color: #632599;
+    color: white;
 }
+
