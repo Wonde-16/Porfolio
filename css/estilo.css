@@ -66,7 +66,7 @@ header img{
 
     margin: 93px 0px;
     padding-top: 10px;
-    padding: 10px 10vw;
+    padding: 10px 0vw;
 
     
     background-color: var(--grisClaroFondo);
@@ -101,19 +101,17 @@ div.linea img{
 
 /* section primero nav */
 
-section.primero{
+.primero{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 80px;
 
-    padding: 100px 0px;
-
     width: 80vw;
     height: 80vh;
 
-    padding: 110px 0px;
+    margin-top: 180px;
 }
 
 
@@ -151,8 +149,6 @@ section.primero{
     padding: 8px 20px 8px 15px;
 
     border-radius: 15px;
-
-    
 
     font-size: 15px;
 }
@@ -205,7 +201,9 @@ section.primero{
 .contador{
     display: flex;
     flex-direction: row;
-    gap: 5vw;
+    justify-content: space-between;
+
+    width: 57vw;
 }
 
 
@@ -228,13 +226,61 @@ section.primero{
 
 /* section segundo */
 
-section.segundo{
-    width: 80vw;
-    height: 80vh;
+.segundo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
 
-    padding: 20px 10vw;
     
     background-color: #632599;
     color: white;
+
+    padding: 5vh 0px;
+
 }
 
+.segundo h1{
+    padding-bottom: 2vw;
+}
+
+.contenidoSegundo{
+    width: 60vw;
+}
+
+/* noticias */
+
+.noticias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.noticias article{
+    width: 13vw;
+    height: 30vh;
+
+    font-size: 11px;
+    text-align: center;
+}
+
+
+.noticias article div{
+    width: 13vw;
+    height: 20vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    margin-bottom: 20px;
+}
+
+.CastoresCabulleria{
+    background-image: url(../img/noticias/castoresCabulleria.jpg);
+}
+
+.ManadaMximas{
+    background-image: url(../img/noticias/manadaMaximas.jpg);
+}
