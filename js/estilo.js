@@ -2,7 +2,7 @@ import { CountUp } from '../countUp.js/dist/countUp.js';
 
 var cont = 0
 
-window.addEventListener("load",function(){
+window.addEventListener("onload",function(){
     const  sectionPrimera  =document.querySelector(".primero");
     let al1 = sectionPrimera.getBoundingClientRect();
 
