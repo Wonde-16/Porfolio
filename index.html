@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <title>Document</title>
     <link rel="stylesheet" href="./css/estilo.css" type="text/css">
 </head>
@@ -13,28 +14,35 @@
 
     </header>
     <section class="nav">
-            <ul>
+            <img class="ham" src="./img/menu ham/lista.png">
+
+            <ul class="navegador">
                 <li>Inicio</li>
+                <li>Ultimas Imagenes</li>
+                <li>Ultimas Noticias</li>
                 <li>Grupo Scout</li>
                 <li>Quienes Somos</li>
-                <li>Quiero ser Scout</li>
+                <li>Donde encontrarnos</li>
                 <li>Contacto</li>
+                <li>Quiero ser Scout</li>
             </ul>
+
+            <img class="lupa" src="./img/lupa.png">
 
             <div class="linea"> 
                 <img src="./img/lupa.png">
             </div>           
 
-    </section>
+    </section>      
     <section class="primero">
 
-        <p class="texto">
+        <p class="texto" data-aos="fade-up" data-aos-duration="1000">
             SENSACIONES <b>POSITIVAS</b> SENTIDAS <br>
             <b>A LO LARGO DE LA RONDA</b> <br>
             SIENDO <b>VOLUNTARIO</b>
         </p>
 
-        <div class="palabras">
+        <div class="palabras" data-aos="fade-up" data-aos-duration="1000">
                 <div class="cajita verde">
                     <img src="./img/flor de lis.png" alt="Flor de Lis">
                     <p>Alegría</p>
@@ -92,7 +100,7 @@
                 </div>
         </div>
 
-        <div class="contador">
+        <div class="contador" data-aos="fade-up" data-aos-duration="1000">
                 <div class="contadorCaja">
                     <img src="./img/1.png" alt="Scouts en activo">
                     <p class="numeros" id="contador1">32,000</p>
@@ -122,55 +130,158 @@
 
     <section class="segundo">
 
-        <div class="contenidoSegundo">
+        <div class="contenidoS">
         
-            <h1>ULTIMAS NOTICIAS</h1>
-            <div class="noticias">
+            <h1 data-aos="fade-up" data-aos-duration="1000">ULTIMAS IMAGENES</h1>
+            <div class="imagenes" data-aos="fade-up" data-aos-duration="1000">
+
+                <div class="flechaIzq"></div>
                 <article>
-                    <div class="CastoresCabulleria"></div>
-                    <h2>Castores han realizado un taller de cabuyería a través de la creatividad.</h2>
+                    <img src="./img/noticias/castoresCabulleria.jpg">
                 </article>
 
                 <article>
-                    <div class="ManadaMximas"></div>
-                    <h2>Nuestra manada arcoíris se ha trabajado por seisenas "las máxima de Baloo".</h2>
+                    <img src="./img/noticias/castoresCabulleria.jpg">
                 </article>
 
                 <article>
-                    <div class="ManadaMximas"></div>
-                    <h2>Nuestra manada arcoíris se ha trabajado por seisenas "las máxima de Baloo".</h2>
+                    <img src="./img/noticias/castoresCabulleria.jpg">
                 </article>
 
                 <article>
-                    <div class="ManadaMximas"></div>
-                    <h2>Nuestra manada arcoíris se ha trabajado por seisenas "las máxima de Baloo".</h2>
+                    <img src="./img/noticias/castoresCabulleria.jpg">
                 </article>
 
-                <article>
-                    <div class="ManadaMximas"></div>
-                    <h2>Nuestra manada arcoíris se ha trabajado por seisenas "las máxima de Baloo".</h2>
-                </article>
+                <div class="flechaDer"></div>
 
-                <article>
-                    <div class="ManadaMximas"></div>
-                    <h2>Nuestra manada arcoíris se ha trabajado por seisenas "las máxima de Baloo".</h2>
-                </article>
-
-                <article>
-                    <div class="ManadaMximas"></div>
-                    <h2>Nuestra manada arcoíris se ha trabajado por seisenas "las máxima de Baloo".</h2>
-                </article>
-
-                <article>
-                    <div class="ManadaMximas"></div>
-                    <h2>Nuestra manada arcoíris se ha trabajado por seisenas "las máxima de Baloo".</h2>
-                </article>
             </div>
         </div>
         
     </section>
 
+    <section class="tercero">
+        <div class="contenidoT">
+        
+            <h1 class="ter" data-aos="fade-up" data-aos-duration="1000">ULTIMAS NOTICIAS</h1>
+            <div class="contTarj" data-aos="fade-up" data-aos-duration="1000">
 
+                <article class="tarjeta">
+
+                    <div class="imgbx">
+                    </div>
+        
+                    <div class="contentenidobx">
+                        <h1>Castores</h1>
+                        <p>Castores han realizado un taller de cabuyería ...</p>
+                        <div class="boton tar1">Leer mas</div>
+                    </div>
+        
+                </article>
+
+
+                <div class="overlayPost1">
+                    <div class="postAbierto">
+                        <div class="imgbxAbiero"></div>
+                        <h1>CASTORES</h1>
+                        <P> Se ha realizado un taller de cabulleria en el local scout.</P>
+                        <div class="cerrar c1">X</div>
+
+                        
+                    </div>
+                </div>
+
+
+                <article class="tarjeta">
+
+                    <div class="imgbx">
+                    </div>
+        
+                    <div class="contentenidobx">
+                        <h1>Castores</h1>
+                        <p>Castores han realizado un taller de cabuyería ...</p>
+                        <div class="boton tar2">Leer mas</div>
+                    </div>
+        
+                </article>
+
+                <div class="overlayPost2">
+                    <div class="postAbierto">
+                        <div class="imgbxAbiero"></div>
+                        <h1>manada</h1>
+                        <P> Se ha realizado un taller de cabulleria en el local scout.</P>
+                        <div class="cerrar c2">X</div>
+
+                        
+                    </div>
+                </div>
+
+
+
+
+                <article class="tarjeta">
+
+                    <div class="imgbx">
+                    </div>
+        
+                    <div class="contentenidobx">
+                        <h1>Castores</h1>
+                        <p>Castores han realizado un taller de cabuyería ...</p>
+                        <div class="boton tar3">Leer mas</div>
+                    </div>
+        
+                </article>
+
+
+                <div class="overlayPost3">
+                    <div class="postAbierto">
+                        <div class="imgbxAbiero"></div>
+                        <h1>scouts</h1>
+                        <P> Se ha realizado un taller de cabulleria en el local scout.</P>
+                        <div class="cerrar c3">X</div>
+
+                        
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+   <footer>
+        <div class="rrss">
+            <a href="https://instagram.com/gruposcoutomaha238?igshid=MmJiY2I4NDBkZg==">
+                <img src="./img/rrss/instagram.png">
+            </a>
+            <a href="https://www.facebook.com/gruposcoutsomaha238ceuta">
+                <img src="./img/rrss/facebook.png">
+            </a>
+            <a href="">
+                <img src="./img/rrss/signo-de-twitter.png">
+            </a>
+            <a href="">
+                <img src="./img/rrss/youtube.png">
+            </a>
+        </div>
+        <div class="contacta">
+                <p class="cont">PONTE EN CONTACTO CON NOSOTROS</p>
+                <div class="formu"><p>NOMBRE</p></div>
+                
+                <div class="formu"><p>EMAIL</p></div>
+                <div class="enviar"><p>ENVIAR</p></div>
+
+        </div>
+
+    </footer>
+    <section class="footerFinal">
+
+    </section>
     <script src="./js/estilo.js" type="module"></script>
+    <script src="./js/estiloPost.js" type="module"></script>
+    <script src="./js/estiloNavHam.js" type="module"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
-</html>
+</html>s
