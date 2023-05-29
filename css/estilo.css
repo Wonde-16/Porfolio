@@ -128,6 +128,10 @@ div.linea img{
 
 
 
+section{
+    padding: 3vw 0px;
+}
+
 /* section primero nav */
 
 .primero{
@@ -265,7 +269,6 @@ div.linea img{
     background-color: #632599;
     color: white;
 
-    padding: 3vh 0px;
 
 }
 
@@ -329,11 +332,6 @@ div.linea img{
     background-image: url(../img/flecha-hacia-abajo-para-navegar.png);
 }
 
-.flechaIzq{
-}
-
-.flechaDer{
-}
 
 
 /* section tercera */
@@ -356,8 +354,7 @@ div.linea img{
     justify-content: center;
     align-items: center;
 }
-
-.tercero h1.ter{
+h1.borde{
     padding-bottom: 1vw;
     margin-bottom: 4vw;
     border-bottom: 2px solid black;
@@ -480,6 +477,136 @@ div.linea img{
 
     font-size: 15px;
 }
+
+
+
+/* cuarta section */
+
+.cuarto{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+
+    
+    padding: 0px 30px;
+}
+
+.cuarto div.textoSP{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.TextoPP{
+    display: flex;
+    flex-direction: row;
+}
+
+.TextoPP img{
+    width: 10vw;
+}
+
+.textoSP h1{
+    color: var(--corporativo);
+}
+
+
+
+
+
+
+
+/* quinta section */
+
+.quinta{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+
+
+    padding: 0px 30px;
+}
+
+.movMun{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+
+.asde{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+
+
+.quinta img{
+    width: 20vw;
+}
+
+
+
+
+
+/* sexto section */
+
+.sexto{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+
+    
+    padding: 0px 30px;
+}
+
+.sexto h1.tituloP3{
+    padding-bottom: 1vw;
+    margin-bottom: 4vw;
+    border-bottom: 2px solid black;
+}
+
+.sexto iframe{
+    width: 70%;
+    height: 40vh;
+}
+
+.sexto div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sexto .localizacion1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;}
+
+.sexto div h1{
+    color: var(--corporativo);
+} 
+
+
+.sexto .textoP3{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+
+    text-align: center;
+}
+
+
+
+
+
+
+
 
 
 
