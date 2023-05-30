@@ -252,7 +252,7 @@ section{
 }
 
 .numeros{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
@@ -270,9 +270,10 @@ section{
     color: white;
 
 
+    position: relative;
 }
 
-.segundo h1{
+.bordeBlanco{
     padding-bottom: 1vw;
     margin-bottom: 4vw;
     border-bottom: 2px solid white;
@@ -317,10 +318,11 @@ section{
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px;
+
 }
 
 .imagenes article{
-    width: 13vw;
+    width: 12vw;
 
     font-size: 8px;
     text-align: center;
@@ -330,9 +332,6 @@ section{
 .imagenes article img{
     width: 13vw;
     height: 20vh;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     
     margin-bottom: 20px;
 }
@@ -342,7 +341,23 @@ section{
     height: 30px;
 
     background-image: url(../img/flecha-hacia-abajo-para-navegar.png);
+    background-size: cover;
+
+    position: absolute;
+    top: 58%;
 }
+
+.flechaIzq{
+    left:  15%;
+    transform: rotate(90deg);
+}
+
+.flechaDer{
+    right: 15%;
+    transform: rotate(-90deg);
+}
+
+
 
 
 
@@ -740,6 +755,16 @@ footer{
 /*mediaquery*/
 
 @media (max-width: 1300px) {
+
+    .imagenes article{
+        width: 16vw;
+    }
+    
+    
+    .imagenes article img{
+        width: 16vw;
+    }
+    
     .ham{
         display: flex;
     }
@@ -871,6 +896,15 @@ footer{
 
 
 @media (max-width: 800px) {
+
+    .imagenes article{
+        width: 31vw;
+    }
+    
+    
+    .imagenes article img{
+        width: 31vw;
+    }
     
     
     .contTarj{
