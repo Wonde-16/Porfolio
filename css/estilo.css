@@ -71,7 +71,7 @@ header img{
     position: fixed;
     z-index: 5;
 
-    margin: 95px 0px;
+    margin: 85px 0px;
     padding-top: 10px;
     padding: 10px 10vw;
 
@@ -144,7 +144,7 @@ section{
     width: 90vw;
     height: 80vh;
 
-    margin-top: 205px;
+    margin-top: 150px;
 }
 
 
@@ -296,6 +296,18 @@ section{
     flex-wrap: wrap;
     width: 60vw;
 }
+
+.contenidoC{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60vw;
+
+}
+
+
 
 /* noticias */
 
@@ -483,26 +495,41 @@ h1.borde{
 /* cuarta section */
 
 .cuarto{
-    width: 60vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
 
+    padding-left: 40vw;
+
+    background-color: var(--corporativo);
+    color: white;
+
     
-    padding: 0px 30px;
+}
+
+.cuarto h1{
+    color: white;
+}
+
+.contenidoC .textoSP h1{
+    color: var(--moradoClaro);
 }
 
 .cuarto div.textoSP{
     display: flex;
     flex-direction: column;
     gap: 20px;
+
+    width: 60vw;
 }
 
-.TextoPP{
+.textoPP{
     display: flex;
     flex-direction: row;
+    width: 60vw;
 }
 
-.TextoPP img{
+.textoPP img{
     width: 10vw;
 }
 
@@ -522,15 +549,22 @@ h1.borde{
     width: 60vw;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap:30px;
 
 
-    padding: 0px 30px;
+    padding: 4vw 0vh;
 }
 
 .movMun{
     display: flex;
     flex-direction: row;
+    gap:30px;
+}
+
+.movMun div{
+    display: flex;
+    flex-direction: column;
     gap:30px;
 }
 
@@ -553,15 +587,17 @@ h1.borde{
 /* sexto section */
 
 .sexto{
-    width: 60vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap:40px;
 
+    background-color: var(--corporativo);
     
-    padding: 0px 30px;
+    padding: 4vw 0vh;
+    color: white;
 }
 
 .sexto h1.tituloP3{
@@ -588,8 +624,8 @@ h1.borde{
     justify-content: center;
     align-items: center;}
 
-.sexto div h1{
-    color: var(--corporativo);
+.sexto div div h1{
+    color: var(--moradoClaro);
 } 
 
 
