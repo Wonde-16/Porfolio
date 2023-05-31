@@ -678,7 +678,6 @@ footer{
     height: 35vh;
     background-color: var(--corporativo );
 
-    position: relative;
 
 }
 
@@ -691,13 +690,14 @@ footer{
     justify-content: center;
     gap: 30px;
 
-    position: absolute;
+    position: fixed;
     left: 70px;
     top: 0px;
 }
 
-.rrss img{
-    width: 20%;
+.rrss i{
+    font-size: 35px;
+    color: #000;
 }
 
 .contacta{
